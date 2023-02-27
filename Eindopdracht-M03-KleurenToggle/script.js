@@ -31,4 +31,5 @@ Array.from(listItems).forEach(function (listitem) {
 let listItemsBackgroundColor = document.getElementsByTagName("li");
 for (let i = 0; i < listItemsBackgroundColor.length; i++) {
     listItemsBackgroundColor[i].style.backgroundColor = listItemsBackgroundColor[i].id;
+    
 }
